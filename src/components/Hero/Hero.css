@@ -1,0 +1,48 @@
+.hero-section{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-height: 900px;
+    display: flex;
+    flex-direction: column;
+    padding-top:150px ;
+}
+.hero-section h1{
+    font-family: 'Outfit';
+    font-weight: 500;
+    font-size: 4vw;
+    line-height: 72px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #F9FFFF;
+}
+.hero-section p{
+   margin-top: 20px;
+    font-family: 'Lexend';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F6F6F6;
+}
+.background-image-container{
+    overflow: hidden;
+    max-height: 600px;
+
+}
+.background-image{
+    animation: rotation 20s infinite linear;
+}
+.rotate {
+    animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+

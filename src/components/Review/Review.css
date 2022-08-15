@@ -1,0 +1,17 @@
+.review{
+margin-top: 100px;
+    background-color: #E9F3ED;
+padding: 20px 20px 80px 20px;
+    height: 100%;
+
+}
+.review h1{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 66px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #333333;
+}

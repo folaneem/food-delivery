@@ -1,0 +1,25 @@
+.cart{
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    position: relative;
+    background: #E9F3ED;
+
+}
+.cart-container{
+    height: 100vh;
+    position: relative;
+    justify-content:center;
+    padding-left: 15vw;
+    padding-top: 100px;
+}
+.cart h1{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 28px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+
+    color: #191919;
+}

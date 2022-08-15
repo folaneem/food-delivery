@@ -1,0 +1,44 @@
+.about-hero {
+    position: relative;
+    background-color: #E9F3ED;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-height: 900px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 130px;
+}
+
+.about-hero h1 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4vw;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #859891;
+}
+
+.about-hero p {
+    margin-top: 20px;
+    font-family: 'Lexend';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    padding-bottom: 20px;
+    font-style: normal;
+    text-align: center;
+    color: #808080;
+}
+
+.hero-background-image-container {
+    margin-bottom: -130px;
+}
+
+.hero-background-image {
+    width: 75%;
+    padding: 20px;
+    background: rgba(133, 152, 145, 0.3);
+}

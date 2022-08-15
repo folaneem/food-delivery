@@ -1,0 +1,31 @@
+.chef-component{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.chef-story{
+    text-align: left;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 0 50px;
+}
+.chef-story h1{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #E88F4E;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.chef-story p{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 35px;
+    color: #808080;
+}

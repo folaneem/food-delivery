@@ -1,0 +1,39 @@
+.form-input {
+    font-size: 18px;
+    color: #859891;
+    font-style: normal;
+}
+
+.input-header-name {
+    font-family: 'Outfit';
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.input-field-container {
+    padding: 10px 0 15px 0;
+}
+
+.input-field {
+    color: #191919;
+    outline: none;
+    height: 56px;
+    width: 600px;
+    padding: 10px;
+    background: #FFFFFF;
+    border: 1px solid #E9F3ED;
+    box-shadow: 0px 2px 8px 4px rgba(233, 243, 237, 0.4);
+    border-radius: 2px;
+}
+
+.input-field::placeholder {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #808080;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

@@ -1,0 +1,30 @@
+.story{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 65px;
+    height: 100%;
+}
+.our-story{
+    padding: 0 50px;
+    margin-top: 50px;
+}
+.our-story h1{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 72px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #E88F4E;
+}
+.our-story p{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 35px;
+    color: #808080;
+}

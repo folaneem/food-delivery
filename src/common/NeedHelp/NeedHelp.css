@@ -1,0 +1,18 @@
+.need-help{
+    background-color: #859891;
+    color: #FFFFFF;
+    padding: 40px 0 20px 14.7vw;
+    font-family: 'Outfit';
+    font-style: normal;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+}
+.need-help h3{
+    font-weight: 500;
+    font-size: 20px;
+
+}
+.need-help p{
+    font-weight: 400;
+    font-size: 18px;
+}

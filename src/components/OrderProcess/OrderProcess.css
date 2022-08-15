@@ -1,0 +1,52 @@
+.order-process {
+    background-color: #fff;
+    height: 550px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 100px;
+}
+
+.order-process h1 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+.carousel-caption h3 {
+    color: #4d4d4d;
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+}
+
+.carousel-caption img {
+    width: 80px;
+    background-color: #E9F3ED;
+    padding: 20px;
+    border-radius: 90px;
+    margin-bottom: 30px;
+}
+
+.carousel-caption p {
+    color: #808080;
+    font-family: Lexend;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.carousel-item {
+    padding-top: 350px;
+}
+
+.carousel-indicators [data-bs-target]{
+
+   background-color: #859891;
+
+}

@@ -1,0 +1,23 @@
+.chef{
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+    padding: 0 65px;
+
+}
+.chef h1{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 66px;
+    text-transform: capitalize;
+    color: #333333;
+    padding-bottom: 60px;
+}
+.slick-dots li.slick-active button:before{
+    font-size: 12px;
+
+}
+
+

@@ -1,0 +1,53 @@
+.review-component{
+height: 100%;
+ margin: 30px 10px 100px 10px;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 30px 20px;
+    position: relative;
+    transition: 0.8s;
+
+}
+.review-component p{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 33px;
+    color: #808080;
+}
+.review-component h3{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333333;
+    padding-top: 8px;
+    padding-left: 20px;
+margin-right: auto;
+}
+.review-component-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;   }
+.review-star{
+    padding-top: 6px;
+}
+
+.review-component:hover{
+    cursor: pointer;
+    box-shadow: -1px 4px 10px 4px rgba(133, 152, 145, 0.3);
+    border-radius: 8px;
+    transform: scale(1.05) ;
+    transition: 0.8s;
+
+
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .review-component{
+        padding: 20px 10px;
+    }
+}
+

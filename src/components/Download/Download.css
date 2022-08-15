@@ -1,0 +1,78 @@
+
+.download{
+    position: relative;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+.download-background{
+    position: absolute;
+    background-color: #E9F3ED;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 190px;
+}
+.download-container{
+    display: table;
+    position: relative;
+    background-image:  url("download.png") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 100px;
+    max-height: 350px;
+    width: 75%;
+    margin: 0px auto 100px auto;
+    opacity: 1.9;
+}
+.download h1{
+    padding: 60px 0 20px 0;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+}
+.download-button-container{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.download-button-container .btn{
+    position: relative;
+    width: 140px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    transition:color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+
+}
+.download-button-container .btn:hover{
+    border: 2px solid #000;
+}
+.download-button-container button{
+    background: none;
+    color: #FFFFFF;
+    font-family: 'Lexend';
+    outline: none;
+    border: none;
+font-size: 12px;
+    margin: 5px 0;
+}
+.download-button-container img{
+    margin-top: 10px ;
+}
+.btn-appstore{
+    background-color: #191919;
+}
+.btn-playstore{
+    border: 2px solid #FFFFFF;
+}

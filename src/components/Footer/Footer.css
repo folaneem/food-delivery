@@ -1,0 +1,48 @@
+.footer{
+    background-color: #191919;
+    color: #FFFFFF;
+    padding:60px 100px;
+    width: 100%;
+    justify-content:center;
+   height: 100%;
+    position: relative;
+    margin: auto;
+}
+.footer-container{
+
+margin: auto;
+    width: 100%;
+    position: relative;
+
+}
+.footer-text{
+    justify-content: center;
+    position: relative;
+}
+
+.footer li h3 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 55px;
+    color: #FFFFFF;
+}
+
+.footer ul li {
+    list-style: none;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+.footer-icon{
+    display: flex;
+    flex-direction: row;
+}
+.footer-icon li a{
+    margin-right: 20px;
+}

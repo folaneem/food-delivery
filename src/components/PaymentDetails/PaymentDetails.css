@@ -1,0 +1,47 @@
+.payment-month-cvv{
+    display: flex;
+    padding-left: 35px;
+}
+.payment-month-cvv input{
+width: 290px;
+}
+.payment-cvv{
+    margin-left: 20px;
+}
+.payment-form {
+    margin-top: 40px;
+    margin-left: 15vw;
+    width: 670px;
+    margin-bottom: 60px;
+
+}
+
+.payment-form-container {
+    background-color: #FFFFFF;
+    padding: 10px 0 20px 0;
+    text-align: center;
+    box-shadow: 0px 2px 18px 3px rgba(233, 243, 237, 0.6);
+
+}
+
+.payment-form-container .input-field-container {
+    padding:0;
+}
+
+.payment-form-container .form-input{
+    height: 80px;
+}
+.payment-form-button button{
+    margin-top: 20px;
+}
+
+.payment-form h1 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 72px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #191919;
+}

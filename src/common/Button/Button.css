@@ -1,0 +1,12 @@
+.button{
+    border: 2px solid #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 22px;
+    width: 233px;
+    height: 72px;
+    background-color: #859891;
+    color: #fff;
+    margin-top: 40px;
+
+}

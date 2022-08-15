@@ -1,0 +1,81 @@
+.card{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+    background: rgba(233, 243, 237, 0);
+border: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.cards:hover {
+    cursor: pointer;
+}
+.image-box{
+    width: 15%;
+}
+.details{
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 25px;
+}
+.card-title.h5 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-right: auto;
+}
+
+.details p:nth-child(1) {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: auto;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+
+
+}
+
+.details p:nth-child(2) {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    /* or 129% */
+
+
+    color: #F6F6F6;
+}
+.name-star-container{
+    display: flex;
+}
+.price-button-container{
+    display: flex;
+}
+.card .btn{
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 140px;
+    height: 40px;
+    color: #FFFFFF;
+    font-family: Lexend;
+    border-radius: 0;
+    background: rgba(233, 243, 237, 0);
+    border: 2px solid #fff;
+}
+.card .btn:hover{
+    background-color: #808080;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+
+
