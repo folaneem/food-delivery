@@ -6,13 +6,12 @@ import Discount from "../Discount/Discount";
 import Footer from "../Footer/Footer";
 
 
+function LandingPage({handleClick}) {
 
-function LandingPage({handleClick}){
-
-    return(
+    return (
         <div className="landing-page">
 
-         <Hero/>
+            <Hero/>
             <OrderProcess/>
             <PopularDishes handleClick={handleClick}/>
             <Discount/>
@@ -21,4 +20,5 @@ function LandingPage({handleClick}){
         </div>
     )
 }
+
 export default LandingPage

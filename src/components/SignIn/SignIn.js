@@ -1,7 +1,7 @@
 import "./SignIn.css"
 import axios from "axios";
 import {setToken} from "../../Utils/TokenUtils";
-import {Link,useNavigate} from "react-router-dom"
+import {Link, useNavigate} from "react-router-dom"
 import {useState} from "react";
 import {INPUTS, INPUT_REGEX} from "../../constants/InputValidation";
 import {DEFAULT_ERROR_MESSAGE} from "../../constants/ErrorMessage";
@@ -80,19 +80,18 @@ function SignIn() {
     }
 
 
-
-    return(
+    return (
         <div className="sign-in">
             <div className="sign-in-logo-container">
                 <Background/>
             </div>
             <div className="sign-in-container">
-<div className="sign-in-text">
-    <h1>Sign In</h1>
-    <p> Sign in to proceed with your order</p>
-</div>
+                <div className="sign-in-text">
+                    <h1>Sign In</h1>
+                    <p> Sign in to proceed with your order</p>
+                </div>
                 <div className="sign-in-form-container">
-                    {inputs.map((input)=>(
+                    {inputs.map((input) => (
                         <FormInput
                             key={input.id}
                             {...input}
@@ -107,7 +106,7 @@ function SignIn() {
                         {errorMessage}
                     </p>
                 )}
-                <div>
+                <div className="sign-in-button-container">
                     <FormButton
                         name={"Sign In"}
                         onClick={handleSignIn}
@@ -123,11 +122,12 @@ function SignIn() {
                 </div>
 
 
-                <h4 className="sign-up-dont-have-account">Don't have an account?
+                <h4 className="sign-in-have-account">Don't have an account?
                     <Link to="/sign-up"> Sign Up</Link>
                 </h4>
             </div>
         </div>
     )
 }
+
 export default SignIn

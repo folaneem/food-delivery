@@ -92,6 +92,7 @@ export function decreaseAmountInCart(product){
     const idInUserCart=cartInLocalStorage.map((item)=> item.id) //get all menu id in user cart
     //if product.id is in user cart already do nothing
     const positionInCart=idInUserCart.indexOf(product.id)
+
     if(positionInCart!=-1){
         const newCount=cartInLocalStorage[positionInCart].count - 1
         cartInLocalStorage[positionInCart]={...product,count:newCount}

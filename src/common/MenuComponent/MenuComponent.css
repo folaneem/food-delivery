@@ -1,0 +1,62 @@
+.menu-component {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    background-color: #E9F3ED;
+    height: 83vh;
+    padding: 70px 0;
+}
+
+.menu-component img {
+    border: 20px solid #FFFFFF;
+    border-radius: 300px;
+    width: 25%;
+    margin: auto;
+
+}
+
+.menu-component h3 {
+    margin-top: 30px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #4D4D4D;
+
+}
+
+.menu-component p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: capitalize;
+
+    color: #859891;
+
+}
+
+.menu-component button {
+    margin-top: 20px;
+    background-color: #E9F3ED;
+    color: #859891;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-transform: capitalize;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+@media only screen and (max-device-width: 1024px) {
+    .menu-component {
+        height: 100%;
+        padding: 40px 0;
+    }
+}

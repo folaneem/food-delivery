@@ -14,17 +14,16 @@ import {
     SIGN_IN_PATH,
     SIGN_UP_PATH,
     CONTACT_PATH,
-    CART_PATH,ADDRESS_PATH
+    CART_PATH,
+    ADDRESS_PATH,
+    MENU_PATH
 } from "./constants/UrlPaths";
 import Address from "./components/Address/Address";
-import {useEffect} from "react";
+import Menu from "./components/Menu/Menu";
 
 function App() {
     const userCart=JSON.parse(localStorage.getItem("userCart")) || []//get user cart from local storage and if there is none initialise to empt
-    useEffect(()=>{
-        document.getElementById('cartLength').innerText=String(userCart.length)
 
-    })
 
   return (
    <Router>
@@ -37,6 +36,7 @@ function App() {
          <Route exact path={SIGN_IN_PATH} element={<SignIn/>}/>
          <Route exact path={SIGN_UP_PATH} element={<SignUp/>}/>
          <Route exact path={ADDRESS_PATH} element={<Address/>}/>
+         <Route exact path={MENU_PATH} element={<Menu/>}/>
 
 
      </Routes>

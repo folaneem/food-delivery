@@ -18,7 +18,7 @@
     color: #191919;
     outline: none;
     height: 56px;
-    width: 600px;
+    width: 45vw;
     padding: 10px;
     background: #FFFFFF;
     border: 1px solid #E9F3ED;
@@ -36,4 +36,9 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+@media only screen and (max-device-width: 1024px) {
+  .input-field{
+      width: 620px;
+  }
 }

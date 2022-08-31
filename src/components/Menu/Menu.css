@@ -1,0 +1,77 @@
+.menu {
+    margin: 0;
+    overflow: hidden;
+    justify-content: center;
+    position: relative;
+    background-color: #859891;
+    height: 100vh;
+    padding: 0 70px;
+}
+
+.menu h1 {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: capitalize;
+    color: #F9FFFF;
+}
+
+.slides .slick-prev, .slides .slick-next {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+
+
+}
+
+/*.slick-prev:before,*/
+/*.slick-next:before {*/
+/*    border: 2px solid green;*/
+
+/*}*/
+
+.slides .slick-prev {
+    left: -40px;
+}
+
+.slides .slick-next {
+    right: -40px;
+}
+
+.menu .slick-arrow.slick-prev, .menu .slick-arrow.slick-next {
+    background: #E88F4E;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*.slick-arrow.slick-prev:active, .slick-arrow.slick-next:active {*/
+/*   background-color: #FFFFFF;*/
+/*    color: #E88F4E;*/
+/*}*/
+@media only screen and (max-device-width: 1024px) {
+    .menu h1 {
+        line-height: 45px;
+        font-size: 24px;
+    }
+
+    .menu .slick-arrow.slick-prev, .menu .slick-arrow.slick-next {
+        width: 60px;
+        height: 60px;
+
+    }
+
+    .slides .slick-prev {
+        left: -30px;
+    }
+
+    .slides .slick-next {
+        right: -30px;
+    }
+}

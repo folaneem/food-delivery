@@ -1,8 +1,7 @@
 import "./CartComponent.css"
-import {Card} from "react-bootstrap";
-import {decreaseAmountInCart, increaseAmountInCart, removeFromCart} from "../../test";
 
-function CartComponent({item}) {
+
+function CartComponent({item,decreaseAmountInCart, increaseAmountInCart, removeFromCart}) {
 
     const {name, price, img} = item
 
@@ -18,13 +17,14 @@ function CartComponent({item}) {
                     <p>${price}</p>
                     <button onClick={() => removeFromCart(item)}>Delete</button>
                 </div>
-                <div className="cart-product-quantity">
-                    <button onClick={() => decreaseAmountInCart(item)}>
-                        -
-                    </button>
-                    <div>{item.count}</div>
-                    <button onClick={() => increaseAmountInCart(item)}>+</button>
-                </div>
+
+            </div>
+            <div className="cart-product-quantity">
+                <button onClick={() => increaseAmountInCart(item)}>
+                    +
+                </button>
+                <div id='itemCount'>{item.count}</div>
+                <button onClick={() => decreaseAmountInCart(item)}>-</button>
             </div>
         </div>
     )

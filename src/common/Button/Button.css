@@ -1,4 +1,5 @@
-.button{
+.button {
+    outline: none;
     border: 2px solid #FFFFFF;
     justify-content: center;
     align-items: center;
@@ -8,5 +9,15 @@
     background-color: #859891;
     color: #fff;
     margin-top: 40px;
+    transition: 0.7s;
 
+}
+
+.button:hover {
+    background-color: #859891;
+    color: #FFFFFF;
+}
+
+.button:active {
+    background-color: #E9F3ED;
 }

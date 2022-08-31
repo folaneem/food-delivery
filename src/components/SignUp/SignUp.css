@@ -1,21 +1,23 @@
-.sign-up{
+.sign-up {
     height: 100%;
     margin: 0;
     overflow-x: hidden;
     position: relative;
 }
 
-.sign-up-container{
+.sign-up-container {
     height: 100vh;
     position: relative;
-    justify-content:center;
+    justify-content: center;
     padding-left: 18vw;
     padding-top: 100px;
 }
-.sign-up-text{
+
+.sign-up-text {
     padding-bottom: 30px;
 }
-.sign-up-text h1{
+
+.sign-up-text h1 {
     font-family: 'Outfit';
     font-weight: 100;
     font-size: 32px;
@@ -25,17 +27,26 @@
 
     color: #191919;
 }
-.sign-up-text p{
+
+.sign-up-text p {
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     color: #808080;
 }
-.sign-up-button-container{
+
+.sign-up-button-container {
     padding-top: 25px;
+
 }
-.sign-up-with-google-button-container button{
+
+.sign-up-button-container button {
+    width: 45vw;
+
+}
+
+.sign-up-with-google-button-container button {
     color: #808080;
     background: #FFFFFF;
     border: 1px solid #E9F3ED;
@@ -51,8 +62,9 @@
     font-size: 16px;
     line-height: 20px;
     color: #808080;
+    width: 45vw;
+    text-align: center;
     padding-top: 10px;
-    padding-left: 150px;
     padding-bottom: 180px;
 }
 
@@ -60,12 +72,14 @@
     color: #E88F4E;
     text-decoration: none;
 }
+
 .sign-up-logo-container {
     background: #E9F3ED;
     position: absolute;
     width: 30%;
     right: 0;
 }
+
 .sign-up-submission-error {
     color: #800000;
     padding-left: 3px;
@@ -73,7 +87,17 @@
 }
 
 @media only screen and (max-device-width: 1024px) {
-    .sign-up-logo-container{
+    .sign-up-button-container button {
+        width: 620px;
+
+    }
+
+    .sign-up-logo-container {
         width: 0%;
+    }
+
+    .sign-in-have-account {
+        width: 620px;
+
     }
 }

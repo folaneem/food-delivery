@@ -22,7 +22,7 @@ const products = [
         },
         {
             id: 3,
-            name: "smoky Jollof rice with chicken and fried plantain",
+            name: "Smoky Jollof rice with chicken and fried plantain",
             price: 10.99,
             amount: 1,
             description: "Donec faucibus leo eget malesuada commodo. Nullam quis felis lobortis, consectetur nisl a, fermentum enim. Suspendisse potenti. Praesent sed porttitor du.",

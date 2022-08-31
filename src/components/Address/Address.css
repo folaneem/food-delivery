@@ -4,4 +4,30 @@
     overflow: hidden;
     position: relative;
     background-color: #E9F3ED;
+
+}
+.address-container {
+    margin-left: 15vw;
+    display: flex;
+    flex-direction: row;
+}
+.address .cart-summary{
+    margin-top: 100px;
+}
+@media only screen and (max-device-width: 1024px) {
+
+    .address-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .address .cart-summary {
+        justify-content: center;
+        margin-top: 0;
+        width: 670px;
+    }
+.address .cart-summary button{
+    width: 630px;
+}
+
+
 }

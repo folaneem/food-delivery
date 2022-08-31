@@ -1,21 +1,28 @@
-.sign-in{
+.sign-in {
     height: 100%;
     margin: 0;
     overflow-x: hidden;
     position: relative;
 }
 
-.sign-in-container{
+.sign-in-container {
     height: 100vh;
     position: relative;
-justify-content:center;
-padding-left: 18vw;
+    justify-content: center;
+    padding-left: 18vw;
     padding-top: 100px;
 }
-.sign-in-text{
+
+.sign-in-button-container button {
+    width: 45vw;
+
+}
+
+.sign-in-text {
     padding-bottom: 30px;
 }
-.sign-in-text h1{
+
+.sign-in-text h1 {
     font-family: 'Outfit';
     font-weight: 100;
     font-size: 32px;
@@ -25,18 +32,23 @@ padding-left: 18vw;
 
     color: #191919;
 }
-.sign-in-text p{
+
+.sign-in-text p {
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     color: #808080;
 }
+
 .sign-in-forgot {
     padding-top: 0;
     margin-top: 0;
-    padding-left: 450px;
+    width: 45vw;
+    text-align: right;
+    /*padding-left: 45%;*/
 }
+
 .sign-in-forgot a {
     left: 200px;
     text-decoration: none;
@@ -47,35 +59,32 @@ padding-left: 18vw;
     line-height: 23px;
     color: #E88F4E;
 }
-.sign-up-dont-have-account {
-    font-family: 'Lexend';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    color: #808080;
-    padding-top: 10px;
-    padding-left: 150px;
-    padding-bottom: 180px;
-}
 
-.sign-up-dont-have-account a {
-    color: #E88F4E;
-    text-decoration: none;
-}
 .sign-in-logo-container {
     background: #E9F3ED;
     position: absolute;
     width: 30%;
     right: 0;
 }
-.sign-in-submission-error{
+
+.sign-in-submission-error {
     color: red;
     padding-left: 3px;
     margin: 0;
 }
+
 @media only screen and (max-device-width: 1024px) {
-    .sign-in-logo-container{
-       width: 0%;
+    .sign-in-button-container button {
+        width: 620px;
+
+    }
+
+    .sign-in-logo-container {
+        width: 0%;
+    }
+
+    .sign-in-forgot {
+        width: 620px;
+        padding-left: 470px;
     }
 }

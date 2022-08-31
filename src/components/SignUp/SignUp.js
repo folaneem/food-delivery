@@ -111,6 +111,7 @@ function SignUp() {
                     <div className="sign-up-button-container">
                         <FormButton
                             name={"Sign Up"}
+                            onClick={handleSignUp}
                         />
                         <div className="sign-up-with-google-button-container">
 

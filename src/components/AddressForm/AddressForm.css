@@ -1,8 +1,6 @@
 .address-form {
     margin-top: 20px;
-    margin-left: 15vw;
-    width: 670px;
-
+    width: 50vw;
 }
 
 .address-form-container {
@@ -14,14 +12,16 @@
 }
 
 .address-form-container .input-field-container {
-    padding:0;
+    padding: 0;
 }
 
-.address-form-container .form-input{
-height: 80px;
+.address-form-container .form-input {
+    height: 80px;
 }
-.address-form-button button{
+
+.address-form-button button {
     margin-top: 20px;
+    width: 45vw;
 }
 
 .address-form h1 {
@@ -33,4 +33,15 @@ height: 80px;
     letter-spacing: 0.03em;
     text-transform: capitalize;
     color: #191919;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .address-form {
+        width: 670px;
+    }
+
+    .address-form-button button {
+        margin-top: 20px;
+        width: 620px;
+    }
 }

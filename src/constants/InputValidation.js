@@ -58,7 +58,7 @@ export const INPUTS = {
     DELIVERY_ADDRESS:
         {
             id: 5,
-            name: "email",
+            name: "delivery address",
             type: "text",
             placeholder:"Delivery Address",
             required: true
@@ -67,7 +67,7 @@ export const INPUTS = {
     PHONE_NUMBER:
         {
             id: 6,
-            name: "email",
+            name: "phone number",
             type: "tel",
             placeholder:"Phone Number e.g +234********",
             required: true

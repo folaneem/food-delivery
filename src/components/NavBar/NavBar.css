@@ -1,12 +1,15 @@
 
-.navbar{
+.navbar {
     background-color: #fff;
     height: 100%;
-    box-shadow: 0px 3px 26px rgba(133, 152, 145, 0.3);}
-.navbar-title{
+    box-shadow: 0px 3px 26px rgba(133, 152, 145, 0.3);
+}
+
+.navbar-title {
     margin: auto;
 }
-.nav-link{
+
+.nav-link {
     position: relative;
     color: #808080;
     margin-left: 50px;
@@ -14,10 +17,12 @@
     font-size: 18px;
     padding: 0 10px;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #333333;
 }
-.nav-link:after{
+
+.nav-link:after {
     content: "";
     position: absolute;
     background-color: #E88F4E;
@@ -26,20 +31,33 @@
     right: 0;
     bottom: -1px;
     transition: 0.3s;
-    color: pink;
 }
-.nav-link:hover:after{
+
+/*.navbar a.nav-link {*/
+/*    display: block;*/
+/*    padding: 0.5rem 1rem;*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*}*/
+.nav-link:hover:after {
     width: 20px;
 }
-#collapsible-nav-dropdown.dropdown-toggle.nav-link::after{
+
+#collapsible-nav-dropdown.dropdown-toggle.nav-link::after {
     border: none;
 }
-.navbar-brand{
+
+.navbar-brand {
     color: #E88F4E;
     font-family: 'Covered By Your Grace', cursive;
     font-size: 36px;
 }
-.dropdown-menu{
+
+.navbar-brand:hover {
+    color: #859891;
+}
+
+.dropdown-menu {
     padding: 0;
     box-shadow: 0px 4px 10px 1px rgba(128, 128, 128, 0.45);
     border: 0;
@@ -47,7 +65,8 @@
     width: 235px;
     margin-left: 55px;
 }
-.dropdown-menu a{
+
+.dropdown-menu a {
     font-family: 'Lexend';
 
     font-size: 16px;
@@ -55,19 +74,33 @@
     border: none;
     color: #808080;
 }
-.dropdown-item:hover{
+
+.dropdown-item:hover {
     background-color: #808080;
     color: #FFFFFF;
     padding-bottom: 10px;
 }
-.navbar span:nth-child(2){
+
+.navbar span:nth-child(2) {
     padding: 1px 8px;
+    font-size: 14px;
     background-color: red;
     color: #fff;
     font-weight: bold;
-    border-radius: 20px;
+    border-radius: 30px;
     position: relative;
     top: -20px;
+}
+
+li a:is(:link, :active, :visited) {
+    color: black;
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+}
+
+li a:is(:link, :active, :visited).active {
+    color: white;
+    background-color: black;
 }
 
 
